@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import CocoaPodsTest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let test = HelperCocoa()
+        test.testing()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

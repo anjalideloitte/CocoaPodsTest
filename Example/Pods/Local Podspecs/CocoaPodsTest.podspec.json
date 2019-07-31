@@ -1,0 +1,27 @@
+{
+  "name": "CocoaPodsTest",
+  "version": "0.1.0",
+  "summary": "A short description of CocoaPodsTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anjalideloitte/CocoaPodsTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anjalideloitte": "anjaggarwal@deloitte.com"
+  },
+  "source": {
+    "git": "https://github.com/anjalideloitte/CocoaPodsTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CocoaPodsTest/Classes/**/*",
+  "resource_bundles": {
+    "CocoaPodsTest": [
+      "CocoaPodsTest/Assets/*.png"
+    ]
+  }
+}
