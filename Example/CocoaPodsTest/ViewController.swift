@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let test = HelperCocoa()
         test.testing()
+        
+        let test2 = TestSecondFile()
+        test2.secondTest()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

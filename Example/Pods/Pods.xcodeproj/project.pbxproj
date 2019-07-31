@@ -11,6 +11,7 @@
 		296D9125988A79D27B6AD1D0D5C5A8B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4D63280F8F432C4374796BEEDF315DB8 /* CocoaPodsTest.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B31175329C4B0FF7778FBF14748E5A6 /* CocoaPodsTest.bundle */; };
 		5B54450822F18E1500434865 /* HelperCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B54450722F18E1500434865 /* HelperCocoa.swift */; };
+		5B54458422F19D2700434865 /* TestSecondFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B54458322F19D2700434865 /* TestSecondFile.swift */; };
 		633BC516A5C163359B55D91480CBCC35 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E0A730A0C92171BBDC282834924DC /* ReplaceMe.swift */; };
 		6A748F3102B34E2E495C72200E2661AB /* CocoaPodsTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CE58A54FD15EA3755945F278EB3F1A /* CocoaPodsTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8506400D0AFFC126941B1B1B3D754C3 /* Pods-CocoaPodsTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC714BB96930C1D231A831713EF0455 /* Pods-CocoaPodsTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,6 +56,7 @@
 		338E0A730A0C92171BBDC282834924DC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CocoaPodsTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		357EB292460F8509F0F7B500EC571F67 /* Pods-CocoaPodsTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodsTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B54450722F18E1500434865 /* HelperCocoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelperCocoa.swift; path = CocoaPodsTest/Classes/HelperCocoa.swift; sourceTree = "<group>"; };
+		5B54458322F19D2700434865 /* TestSecondFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestSecondFile.swift; path = CocoaPodsTest/Classes/TestSecondFile.swift; sourceTree = "<group>"; };
 		635B242AEC223B80DDD7190D24A2876D /* CocoaPodsTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaPodsTest.xcconfig; sourceTree = "<group>"; };
 		6472201F174FC2EFE5168437DA7D3C25 /* Pods-CocoaPodsTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodsTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7DE8A92405DEF95E200EFAF36B867E22 /* CocoaPodsTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaPodsTest-prefix.pch"; sourceTree = "<group>"; };
@@ -80,7 +82,7 @@
 		D7E13B684A0ED08C3EB75DD1B3F19BD0 /* Pods-CocoaPodsTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D8A78CC6157DB524CF4161EC34F86EAC /* CocoaPodsTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaPodsTest-dummy.m"; sourceTree = "<group>"; };
 		E86BDE6EAC89C1C9D302499DAE433FCB /* CocoaPodsTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaPodsTest-Info.plist"; sourceTree = "<group>"; };
-		FECD414B93725D657FF23A278DFEE9EB /* CocoaPodsTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CocoaPodsTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FECD414B93725D657FF23A278DFEE9EB /* CocoaPodsTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CocoaPodsTest.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				338E0A730A0C92171BBDC282834924DC /* ReplaceMe.swift */,
 				036857D99E4CCC04F0F5954F7A8B93C4 /* Pod */,
 				8AD91E5243939BC68047F30DF327495E /* Support Files */,
+				5B54458322F19D2700434865 /* TestSecondFile.swift */,
 			);
 			name = CocoaPodsTest;
 			path = ../..;
@@ -439,6 +442,7 @@
 				5B54450822F18E1500434865 /* HelperCocoa.swift in Sources */,
 				E06AAAB27900457D9469CEB0F099554A /* CocoaPodsTest-dummy.m in Sources */,
 				633BC516A5C163359B55D91480CBCC35 /* ReplaceMe.swift in Sources */,
+				5B54458422F19D2700434865 /* TestSecondFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
